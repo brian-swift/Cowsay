@@ -7,6 +7,7 @@ public class Cowsay	{
 	}
 	
 	public String createDash(int length) {
+		//Create a dashed line based on passed in length
 		String dashes ="";
 		for(int i=0;i<length;i++)	{
 			dashes+="-";
@@ -15,6 +16,7 @@ public class Cowsay	{
 	}
 	
 	public String createCow(String cowsay) {
+		//Create Cow output
 		String output;
 		
 		output = createDash(cowsay.length())+"\n";
